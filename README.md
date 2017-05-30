@@ -25,6 +25,11 @@ This structure is located in the root of the git repository **wilomaku/IA369Z**:
 
 Please, pay attention to these instructions and follow carefully
 
-\begin{enumerate}
-  \item Test
-\end{enumerate}
+1. Make sure you have installed Jupyter Notebook with Python 2.7 (Instructions at http://jupyter.readthedocs.io/en/latest/install.html)
+2. Create a local directory on location of your preference. This will be your work_directory
+3. Download the directories with dataset available at **XDEF** and copy each one at the root of your work_directory:
+  * Three directories (Seg_pixel/, Seg_ROQS/, Seg_Watershed/) containing binary masks (on .npy) and their labels (on .csv) for the three segmentation methods
+  * One directory (dif_mri/) containing nifti diffusion files (on .nii) of 40 subjects for mean correct signature generation and configuration
+4. Download the last version of main notebook (.ipynb) avaliable at https://github.com/wilomaku/IA369Z/tree/master/dev and copy 
+5. Move to the work_directory and run **jupyter notebook**
+6. From Jupyter browser interface open main notebook (.ipynb) and run cells in order. You can check the intermediate results.
