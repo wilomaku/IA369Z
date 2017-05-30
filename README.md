@@ -12,6 +12,7 @@ This work was done as part of the final project in the **Tools for reproducible 
 * Numpy 1.12.1
 * Scipy 0.18.1
 * Matplotlib 2.0.0
+* Nibabel 2.0.1
 * bib_mri library (My library avaliable on: )
 
 ## Files structure
