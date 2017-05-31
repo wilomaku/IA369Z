@@ -4,7 +4,7 @@
 
 This Readme file holds instructions for reproduction of the work **Corpus callosum's shape signature for segmentation error detection in large datasets**
 
-This work was done as part of the final project in the **Tools for reproducible research** subject. It is licensed under GNU v3 license, please refer to LICENSE.md for more details.
+This work was developed as part of a final project in the **Tools for reproducible research** subject. It is licensed under GNU v3 license, please refer to LICENSE.md for more details.
 
 ## Environment and used libraries and dependencies
 
@@ -12,7 +12,7 @@ This work was done as part of the final project in the **Tools for reproducible 
 * Numpy 1.12.1
 * Scipy 0.18.1
 * Matplotlib 2.0.0
-* Nibabel 2.0.1
+* Nibabel 2.0.1 (Optional for segmentation pipeline)
 * bib_mri library (My library avaliable on: )
 
 ## Files structure
