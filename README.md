@@ -30,7 +30,7 @@ Please, pay attention to these instructions and follow carefully
 2. Install Nibabel through Anaconda: pip install nibabel (Instructions at http://nipy.org/nibabel/installation.html)
 3. Create a local directory on location of your preference. This will be your work_directory
 4. Download the dataset directories availables at **XDEF** and copy each one at the work_directory root:
-  * Three directories (Seg_pixel/, Seg_ROQS/, Seg_Watershed/) containing binary masks (on .npy) and their labels (on .csv) for the three segmentation methods and the 153 subjects. For each diectory, masks are named as mask_'method'_'number'.npy where 'method' is the segmentation method that generate the mask and 'number' is the number assigned to that subject. The csv file has two columns: subject number and segmentation label (0 for correct segmentation and 1 for erroneous segmentation).
+  * Three directories (Seg_pixel/, Seg_ROQS/, Seg_Watershed/) containing binary masks (on .npy) and their labels (on .csv) for the three segmentation methods and the 153 subjects. For each diectory, masks are named as **mask_'method'_'number'.npy** where 'method' is the segmentation method that generate the mask and 'number' is the number assigned to that subject. The csv file has two columns: subject number and segmentation label (0 for correct segmentation and 1 for erroneous segmentation).
   * One directory (dif_mri/) containing nifti diffusion files (on .nii) for 1 subject
 5. Download the last version of main notebook (.ipynb) avaliable at https://github.com/wilomaku/IA369Z/tree/master/dev and copy it to the work_directory
 6. Move to the work_directory and run **jupyter notebook**
