@@ -8,7 +8,7 @@ This work was developed as part of a final project in the **Tools for reproducib
 
 ## Environment and used libraries and dependencies
 
-* Python 2.7
+* Python 2.7.6
 * Numpy 1.12.1
 * Scipy 0.18.1
 * Matplotlib 2.0.0
