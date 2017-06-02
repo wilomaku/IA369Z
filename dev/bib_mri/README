@@ -1,0 +1,8 @@
+# Library with shape signature functions. This library is mandatory to reproduce Corpus callosum's shape signature for 
+segmentation error detection in large datasets
+
+## Library bib_mri William Javier Garcia Herrera
+## University of Campinas
+## wjgarciah@unal.edu.co
+## https://github.com/wilomaku/IA369Z
+## Code under license GNU v3.0
