@@ -23,14 +23,15 @@ This structure is located in the root of the git repository **wilomaku/IA369Z**:
 
 ## Instructions to execute notebook
 
-Please, pay attention to these instructions and follow carefully
+Please, pay attention to these instructions and follow carefully. Besides Jupyter notebook installed, you must have a work directory with three elements: dataset directory, ipyhton script and library directory with the necessary functions.
 
 1. Make sure you have installed Jupyter Notebook with Python 2.7 (Instructions at http://jupyter.readthedocs.io/en/latest/install.html)
 2. Create a local directory on location of your preference. This will be your **work_directory**
 3. Write a email to wjgarciah@unal.edu.co requesting dataset link. You will get back the Dropbox link to download dataset (**dataset.zip**).
 4. Download **dataset.zip**, copy it at your **work_directory** root and extract there (work_directory/dataset/). dataset directory has three directories (Seg_pixel/, Seg_ROQS/, Seg_Watershed/) containing binary masks (on .npy) and their labels (on .csv) for 153 subjects. For each diectory, masks are named as **mask_'method'_'number'.npy** where 'method' is the segmentation method that generate the mask and 'number' is the number assigned to that subject. The csv file, for each directory, has two columns: subject number and segmentation label (0 for correct segmentation and 1 for erroneous segmentation).
 4. Copy the last version of main notebook (010617-WJGH-art_struc.ipynb) avaliable at https://github.com/wilomaku/IA369Z/tree/master/deliver and copy it to the **work_directory** root.
-5. Run **jupyter notebook** from your **work_directory**
-6. From Jupyter browser interface open main notebook (010617-WJGH-art_struc.ipynb) and run cells in order. You can check the intermediate results.
+5. Download **bib_mri/** directory available at https://github.com/wilomaku/IA369Z/tree/master/dev and copy it at the root of your **work_directory** (work_directory/bib_mri/)
+6. Run **jupyter notebook** from your **work_directory**
+7. From Jupyter browser interface open main notebook (010617-WJGH-art_struc.ipynb) and run cells in order. You can check the intermediate results.
 
 Questions? Suggestions? Please write to wjgarciah@unal.edu.co
