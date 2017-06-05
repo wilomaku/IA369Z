@@ -4,7 +4,7 @@
 
 This Readme file holds instructions for reproduction of the work **Corpus callosum's shape signature for segmentation error detection in large datasets**
 
-This work was developed as part of a final project in the **Tools for reproducible research** subject. It is licensed under GNU v3 license, please refer to LICENSE.md for more details.
+This work was developed as part of a final project in the **Tools for reproducible research** course. It is licensed under GNU v3 license, please refer to LICENSE.md for more details.
 
 ## Environment, used libraries and dependencies
 
