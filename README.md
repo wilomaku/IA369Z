@@ -14,6 +14,12 @@ This work was developed as part of a final project in the **Tools for reproducib
 * Matplotlib 2.0.0
 * bib_mri library (My library avaliable on: https://github.com/wilomaku/IA369Z/tree/master/dev)
 
+## Workflow
+
+This project receives a binary mask, in .npy format, and return a binary value depending if it is erroneous segmentation (1) or correct segmentation (1). For constructing model (mean curvature generation and signature configuration), binary masks were passed (in .pny format).
+
+![Alt text](figures/workflow_simp.png?raw=true "Title")
+
 ## Files structure
 
 This structure is located in the root of the git repository **wilomaku/IA369Z**:
