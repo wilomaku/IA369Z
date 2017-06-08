@@ -33,7 +33,7 @@ Please, pay attention to these instructions and follow carefully. Besides Jupyte
   - git clone https://github.com/wilomaku/IA369Z.git
 4. Write a email to wjgarciah@unal.edu.co requesting dataset link. You will get back the Dropbox link to download dataset (**dataset.zip**).
 5. Download **dataset.zip**, copy it at **rep_directory/IA369Z/** and extract there. dataset directory has three directories (Seg_pixel/, Seg_ROQS/, Seg_Watershed/) containing binary masks (on .npy) and their labels (on .csv) for 153 subjects. For each diectory, masks are named as **mask_'method'_'number'.npy** where 'method' is the segmentation method that generate the mask and 'number' is the number assigned to that subject. The csv file, for each directory, has two columns: subject number and segmentation label (0 for correct segmentation and 1 for erroneous segmentation).
-6. Run **jupyter notebook** from your **work_directory**
-7. From Jupyter browser interface open main notebook (the most recent one) and run cells in order. You can check the intermediate results.
+6. Run **jupyter notebook** from your **rep_directory/IA369Z/** directory.
+7. From Jupyter browser interface open main notebook (the most recent one) in the deliver directory and run cells in order. You can check the intermediate results.
 
 Questions? Suggestions? Please write to wjgarciah@unal.edu.co
