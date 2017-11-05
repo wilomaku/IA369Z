@@ -13,6 +13,6 @@ def compute_angles(pivot, anterior, posterior):
     ang = ang_post - ang_ant
     idx = ang<-(3*np.pi/2.0)
     ang[idx] = (ang[idx]+(2*np.pi))
-    idx = ang<0.45
+    idx = ang<0.75
     ang[idx] += max_angle
     return 360 - ang*180/(np.pi)
