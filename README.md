@@ -1,5 +1,7 @@
 # Corpus callosum's shape signature for segmentation error detection in large datasets
 
+The detection of incorrect segmentations is important for performing quality control over large datasets, avoiding introduce errors along the processing pipeline. Specially in large datasets, manual detection results unfeasible and automatic algorithms are the only way to perform quality control.
+
 ## Reproducible paper
 
 This Readme file holds instructions for reproduction of the work **Corpus callosum's shape signature for segmentation error detection in large datasets**
